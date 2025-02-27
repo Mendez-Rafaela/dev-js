@@ -36,4 +36,13 @@ for (let i =0; i <= 10; i++) {
 
 
 // Exercício 5
+let numero = prompt("Digite um número:")
 
+numero = parseFloat(numero)
+
+while (numero >= 0) {
+    console.log(numero)
+    numero--
+}
+
+alert("Contagem concluída! E esse é o exercício 5.")
